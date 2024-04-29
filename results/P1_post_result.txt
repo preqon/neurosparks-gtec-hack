@@ -1,0 +1,2 @@
+best parameters: {'csp__reg': 0.1, 'csp__n_components': 4}
+mean score 0.91875 with std 0.040019526483955306
