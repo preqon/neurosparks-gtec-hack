@@ -4,11 +4,12 @@ In this [hackathon](https://www.br41n.io/), we had 24 hours to build something
 cool with [gtec](https://www.gtec.at/)'s technology. 
 
 We hopped on the Stroke Rehabilitation Data Analysis project. We were given an
-EEG dataset to play and two relevant papers.
+EEG dataset to play with and two relevant papers.
 
 - Brain Computer Interface treatment for motor rehabilitation of upper extremity
 of stroke patients – A feasibility study ([link](https://pubmed.ncbi.nlm.nih.gov/33192277/))
-- Time-Variant Linear Discriminant Analysis Improves Hand Gesture and Finger Movement Decoding for Invasive Brain-Computer Interfaces ([link](https://www.frontiersin.org/articles/10.3389/fnins.2019.00901/full))
+- Time-Variant Linear Discriminant Analysis Improves Hand Gesture and Finger Movement Decoding
+for Invasive Brain-Computer Interfaces ([link](https://www.frontiersin.org/articles/10.3389/fnins.2019.00901/full))
 
 The story behind these two papers is as follows.
 
