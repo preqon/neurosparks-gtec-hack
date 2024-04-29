@@ -133,7 +133,7 @@ after running `preprocess.m`.
 
 ## Team
 
-- Ozgur Ege Agodan
+- Ozgur Ege Aydogan
 - Reehab Ahmed
 - Christina Yunjie
 - Fadzai Saravoyi
