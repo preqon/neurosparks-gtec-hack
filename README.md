@@ -13,9 +13,9 @@ for Invasive Brain-Computer Interfaces ([link](https://www.frontiersin.org/artic
 
 The story behind these two papers is as follows.
 
-Researchers are interested promoting the rehabilitation of stroke patients
-who have lost their ability to move limbs. To this end, we can ask patients
-to imagine moving their limb; and when successful view inside virtual reality 
+Researchers are interested in promoting the rehabilitation of stroke patients
+experiencing acute motor impairment. To this end, we can ask patients
+to imagine moving their limb; and, when successful, view inside virtual reality 
 (VR) the corresponding movement. At the same time, we can deliver functional
 electrical stimulation (FES) to their corresponding muscle.
 
@@ -24,7 +24,7 @@ alleviating their motor impairment.
 
 Brain-computer interface (BCI) technology fits in here, by allowing us to decode
 the patient's brain activity, recorded with
-EEG or ECoG during imagined movement. If they have
+EEG or ECoG, during imagined movement. If they have
 correctly imagined moving their limb, a VR and FES integrated system can 
 reward the patient accordingly.
 
