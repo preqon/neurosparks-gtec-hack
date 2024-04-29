@@ -128,6 +128,9 @@ Data from three participants in this
 [study](https://pubmed.ncbi.nlm.nih.gov/33192277/) was provided by gtec. 
 You may contact authors for access.
 
+Place raw data inside `data/stroke`. Filtered data should go to `data/filtered`
+after running `preprocess.m`.
+
 ## Team
 
 - Ozgur Ege Agodan
