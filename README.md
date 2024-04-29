@@ -91,15 +91,15 @@ Our pre-processing and stimulus artefact removal was limited to bandpass
 filtering between 8 and 30 Hz. 
 
 More specific frequency band analysis, and better stimulus artefact removal
-could be improved to match accuracy performance described in the paper.
+could be added to match accuracy performance described in the paper.
 
-It's possible as well in this time frame that steps in CSP feature extraction
+It's possible as well, in this time frame, that steps in CSP feature extraction
 and LDA classification were missed. Comments explain what was done throughout,
 and may identify discrepancies with the paper or with better methods out there.
 
 #### LogReg + RF + GB
 
-Being short on time, preprocessing/feature extraction was altogether skipped, 
+Being short on time, preprocessing/feature extraction were altogether skipped, 
 with raw EEG data being used for these ML methods.
 
 ## How to Interact With This Repo 
@@ -112,7 +112,7 @@ on this dataset you can start with our Jupyter notebook
 `experiment.ipynb` for data visualisation. 
 
 The `experiment.ipynb` notebook also includes 
-our final signal processing, but these were copied to other scripts towards
+our final csp+lda implementation, but these were copied to other scripts towards
 the end of the hack for ease of use.
 
 Our simple pre-processing method is inside `preprocess.m` (missing on init).
