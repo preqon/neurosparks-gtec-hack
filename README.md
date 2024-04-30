@@ -114,7 +114,7 @@ The `experiment.ipynb` notebook also includes
 our final csp+lda implementation, but these were copied to other scripts towards
 the end of the hack for ease of use.
 
-The Traditional_ML_rawEEG_LR_Classification.ipynb notebook contains code for traditional machine learning algorithms and cross-validation implementation, with results displayed in the classical_ML_results folder. Additionally, it includes statistical analysis on the impact of ML methods, treatment stage (Pre/Post), and individual differences, accompanied by visualization plots.
+The `Traditional_ML_rawEEG_LR_Classification.ipynb` notebook contains code for traditional machine learning algorithms and cross-validation implementation, with results displayed in the `classical_ML_results` folder. Additionally, it includes statistical analysis on the impact of ML methods, treatment stage (Pre/Post), and individual differences, accompanied by visualization plots.
 
 Our simple pre-processing method is inside `preprocess.m` (missing on init).
 
