@@ -68,12 +68,10 @@ pictured, though not as high the original paper. See limitations below.
 
 ![image](results/csp-lda-results-bar-plot.png)
 
-Our implementation of logistic regression, random forest, and gradient boosting
-showed high accuracy performance for LogReg only. However, all of
-these methods took > 20 minutes on our machines. CSP+LDA took a few
-seconds.
 
-![image](results/logreg-rf-gb-box-plot.png)
+Our logistic regression, random forest, and gradient boosting implementations achieved moderate accuracy, with logistic regression performing the best. However, each method took over 20 minutes to run on our machines. In contrast, CSP+LDA completed in just a few seconds.
+
+![image](classical_ML_results/Factors_effect_by_methods.png)
 
 Our comparison of our implementations to 
 [StrokeNet](https://github.com/hWils/Stroke-Net) similarly indicated that
@@ -115,6 +113,8 @@ on this dataset you can start with our Jupyter notebook
 The `experiment.ipynb` notebook also includes 
 our final csp+lda implementation, but these were copied to other scripts towards
 the end of the hack for ease of use.
+
+The Traditional_ML_rawEEG_LR_Classification.ipynb notebook contains code for traditional machine learning algorithms and cross-validation implementation, with results displayed in the classical_ML_results folder. Additionally, it includes statistical analysis on the impact of ML methods, treatment stage (Pre/Post), and individual differences, accompanied by visualization plots.
 
 Our simple pre-processing method is inside `preprocess.m` (missing on init).
 
