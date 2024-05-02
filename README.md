@@ -54,12 +54,13 @@ to compare our performances to theirs.
 Our analysis confirms that linear transformation methods are far superior
 in processing time than non-linear machine learning models. This makes linear
 transformations far more applicable in the BCI-rehabilitation paradigm; even
-though accuracy can be improved by some non-linear models.
+though accuracy can be improved by some non-linear models (like on
+[StrokeNet](https://github.com/hWils/Stroke-Net)).
 
 Interestingly, while replicating CSP, we tuned this feature extraction method's
 hyper parameters, and found that some subjects had improved accuracy with
-greater than four components. The original paper reported that
-four components were used in all subjects. We propose that subject-specific
+greater than four CSP components. The original paper reported that
+four CSP components were used in all subjects. We propose that subject-specific
 hyper parameter tuning could improve motor imagery detection performance,
 inside the BCI-rehabilitation paradigm.
 
@@ -119,9 +120,10 @@ The `Traditional_ML_rawEEG_LR_Classification.ipynb` notebook contains code for t
 Our simple pre-processing method is inside `preprocess.m` (missing on init).
 
 Our entire CSP + LDA signal processing pipeline is inside. 
-`csp_lda.py`.
+`csp_lda.py`. Results are stored in `csp_lda_results/`.
 
-`jobs.sh` indicates how we used the above scripts on each participant.
+`csp_lda_jobs.sh` indicates how we used the `csp_lda.py` script on each 
+participant.
 
 ### Data
 
