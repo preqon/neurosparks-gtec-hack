@@ -67,7 +67,7 @@ inside the BCI-rehabilitation paradigm.
 Our replication of CSP+LDA showed promising performance in accuracy as
 pictured, though not as high the original paper. See limitations below.
 
-![image](results/csp-lda-results-bar-plot.png)
+![image](csp_lda_results/csp-lda-results-bar-plot.png)
 
 
 Our logistic regression, random forest, and gradient boosting implementations achieved moderate accuracy, with logistic regression performing the best. However, each method took over 20 minutes to run on our machines. In contrast, CSP+LDA completed in just a few seconds.
